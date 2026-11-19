@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnomlets" path="/org/gnome/shell/extensions/gnomlets/">
+    <key name="widgets" type="s">
+      <default>'[{"id":"w1","type":"clock"},{"id":"w2","type":"calendar"},{"id":"w3","type":"weather"},{"id":"w4","type":"system"}]'</default>
+      <summary>Widgets on the desktop</summary>
+      <description>JSON list of instances: id, type, position (x, y; missing or -1 = place automatically), size (w, h; missing = the widget's default) and per-widget options.</description>
+    </key>
+    <key name="theme" type="s">
+      <default>'auto'</default>
+      <summary>Theme</summary>
+      <description>auto, dark, light, glass, nord, gruvbox or mocha.</description>
+    </key>
+    <key name="opacity" type="i">
+      <range min="30" max="100"/>
+      <default>100</default>
+      <summary>Card opacity (%)</summary>
+    </key>
+    <key name="snap" type="b">
+      <default>true</default>
+      <summary>Snap widgets to each other and to the screen edges</summary>
+    </key>
+    <key name="gap" type="i">
+      <range min="0" max="64"/>
+      <default>14</default>
+      <summary>Gap between snapped widgets</summary>
+    </key>
+    <key name="locked" type="b">
+      <default>false</default>
+      <summary>Lock position and size</summary>
+    </key>
+    <key name="prefs-focus" type="s">
+      <default>''</default>
+      <summary>Widget to show when the preferences window opens</summary>
+      <description>Set by the shell before opening the preferences; cleared by the preferences window.</description>
+    </key>
+  </schema>
+</schemalist>

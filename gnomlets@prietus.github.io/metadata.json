@@ -1,0 +1,9 @@
+{
+  "uuid": "gnomlets@prietus.github.io",
+  "name": "Gnomlets",
+  "description": "macOS-style desktop widgets: clock, calendar, weather, system, network, disks, processes, media, battery and notes. They sit on the wallpaper, below the windows, and can be dragged, resized and snapped to each other.",
+  "shell-version": ["51"],
+  "url": "https://github.com/prietus/gnomlets",
+  "settings-schema": "org.gnome.shell.extensions.gnomlets",
+  "version-name": "1.0"
+}

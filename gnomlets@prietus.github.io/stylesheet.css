@@ -1,0 +1,4 @@
+/* Gnomlets: the cards are styled from the theme in lib/themes.js. */
+.gnomlets-note-dialog StEntry {
+    padding: 10px;
+}
